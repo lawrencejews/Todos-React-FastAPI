@@ -1,0 +1,44 @@
+{
+  "name": "fastapi-react",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.js",
+  "author": "lawrencejews",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "emotion-theming": "^11.0.0",
+    "framer-motion": "^8.0.2",
+    "parcel": "2.3.2",
+    "prettier": "2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
